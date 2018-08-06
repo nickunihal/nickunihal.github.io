@@ -34,7 +34,7 @@ input[type="submit"],input[type="reset"],a,.w3_agileits_services1_grid1{
 }
 /*-- banner --*/
 .banner{
-	background:url(../images/bannert3.jpg) no-repeat 0px 0px;
+	background:url(../images/img_21.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .banner-1{
@@ -541,12 +541,12 @@ a.w3_agile_vimeo:hover{
 	color:#FFFFFF;
 }
 .popular-section-wthree {
-  background: url(../images/img_20.jpg) no-repeat 0px 0px;
+  background: url(../images/img_20.jpeg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-	padding:20em 0;
+	padding:15em 0;
 }
 .popular-agileinfo {
     text-align: center;
