@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
     font-size: 100%;
-	font-family: 'Prompt', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background:#ffffff;
 	margin: 0;
 }
@@ -38,7 +38,7 @@ input[type="submit"],input[type="reset"],a,.w3_agileits_services1_grid1{
 	background-size:cover;
 }
 .banner-1{
-	background:url(../images/banner-1.jpg) no-repeat 0px 0px;
+	background:url(../images/img_21.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:300px;
 }
@@ -55,7 +55,7 @@ input[type="submit"],input[type="reset"],a,.w3_agileits_services1_grid1{
 }
 .w3_agile_logo h1 a{
 	font-size: .4em;
-    color: #0cf920;
+    color: white;
     letter-spacing: 5px;
     text-transform: uppercase;
     text-decoration: none;
@@ -63,9 +63,9 @@ input[type="submit"],input[type="reset"],a,.w3_agileits_services1_grid1{
 	text-align:right;
 }
 .w3_agile_logo h1 a span {
-    font-size: 3em;
-    color: #0cf920;
-    text-shadow: 0px 3px 1px #0cf920;
+    font-size: 2em;
+    color: white;
+    /*text-shadow: 0px 3px 1px white;*/
     display: block;
 }
 
@@ -176,15 +176,15 @@ a.w3_agile_vimeo:hover{
     font-weight: 600;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color:#0cf920;
+    color: white;
     background: none;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color:#fff;
+    color: white;
     background: none;
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color: #0cf920;
+    color: white;
 }
 .navbar-nav {
     margin: 0;
@@ -240,7 +240,7 @@ a.w3_agile_vimeo:hover{
 .w3_agile_nav a span::before {
   width: 100%;
   height: 2px;
-  background: #0cf920;
+  background: none;
   content: "";
   position: absolute;
   left: 0;
@@ -257,7 +257,7 @@ a.w3_agile_vimeo:hover{
 .w3_agile_nav a span::after {
   width: 100%;
   height: 2px;
-  background: #0cf920;
+  background: none;
   content: "";
   position: absolute;
   right: 0;
@@ -275,7 +275,7 @@ a.w3_agile_vimeo:hover{
 .w3_agile_nav a::before {
   width: 2px;
   height: 100%;
-  background: #0cf920;
+  background: none;
   content: "";
   position: absolute;
   left: 0;
@@ -293,7 +293,7 @@ a.w3_agile_vimeo:hover{
 .w3_agile_nav a::after {
   width: 2px;
   height: 100%;
-  background: #0cf920;
+  background: none;
   content: "";
   position: absolute;
   right: 0px;
@@ -310,6 +310,7 @@ a.w3_agile_vimeo:hover{
 }
 .w3_agile_nav a:hover {
   color: white;
+
 }
 .w3_agile_nav a:hover::before, .w3_agile_nav a:hover::after,.w3_agile_nav li.active a::before, .w3_agile_nav li.active a::after {
   -moz-transform: translateX(0);
@@ -363,7 +364,7 @@ a.w3_agile_vimeo:hover{
     font-size: 2em;
 }
 .top-banner-right ul li a:hover{
-    color: #0cf920;
+    color: white;
 }
 .w3ls-phone{
 	margin: 9em 0 0 0;
@@ -402,7 +403,7 @@ a.w3_agile_vimeo:hover{
     margin: 1em 0 0 0;
 }
 .w3-about-left p {
-    color: #999999;
+    color: #605e5e;
     font-size: .9em;
     line-height: 1.8em;
     margin: 1em 0 0 0;
@@ -427,7 +428,7 @@ a.w3_agile_vimeo:hover{
 }
 .w3l-button a:hover {
     background: #F44336;
-    border: solid 1px #F44336;
+    border: solid 1px white;
     color: #FFFFFF;
 }
 .w3l-button a:focus{
@@ -456,7 +457,7 @@ a.w3_agile_vimeo:hover{
 }
 .agile-why-text p{
 	margin: 1em 0 0;
-    color: #999999;
+    color: #605e5e;
     line-height: 1.8em;
     font-size: .9em;
 }
@@ -548,6 +549,12 @@ a.w3_agile_vimeo:hover{
     -o-background-size: cover;
 	padding:15em 0;
 }
+.popular-boxoverlay {
+  border: 1px;
+  color: black;
+  opacity: 0.5;
+  font-family: 'Open Sans', sans-serif;
+}
 .popular-agileinfo {
     text-align: center;
     margin-top: 5em;
@@ -568,12 +575,12 @@ a.w3_agile_vimeo:hover{
     transition: .5s all;
 }
 .popular-agileinfo h4 {
-    font-size: 1.2em;
-    color: #ff5722;
+    font-size: 1.4em;
+    color: white;
     margin: 1em 0;
 }
 .popular-grid:hover i.fa{
-    color: #ff5722; 
+    color: white; 
 	-webkit-transform: rotatey(180deg);
 	-moz-transform: rotatey(180deg);
 	-o-transform: rotatey(180deg);
@@ -639,7 +646,7 @@ a.w3_agile_vimeo:hover{
 }
 .team-Info-agileits p {
     font-size: .9em;
-    color: #999999;
+    color: #605e5e;
     line-height: 1.8em;
     margin: 1.5em 0 2em;
 }
@@ -740,7 +747,7 @@ li.agileinfo_share {
 }
 /*-- news-letter --*/
 .news-letter {
-    padding: 5em 0;
+    padding: 4em 0;
 }
 .agileinfo-subscribe {
     margin-top: 5em;
@@ -757,7 +764,7 @@ li.agileinfo_share {
     width: 42%;
     float: left;
     background: #ffffff;
-    margin-right: 2%;
+    margin-right: 0.5%;
 }
 .news-letter input[type="submit"]{
 	color: #FFFFFF;
@@ -856,7 +863,7 @@ li.agileinfo_share {
 /*-- footer --*/
 .w3-agile-footer {
     background: #191d20;
-    padding: 5em 0;
+    padding: 1em 0;
 }
 .footer-grid-heading h4{
     color: #ffffff;
@@ -870,7 +877,7 @@ li.agileinfo_share {
 .footer-grid-info  p{
     margin: 0;
     font-size: .9em;
-    color: #999999;
+    color: #605e5e;
     line-height: 1.8em;
 }
 .footer-grid-info p span{
@@ -892,7 +899,7 @@ li.agileinfo_share {
 }
 .footer-grid-info ul li a{
 	font-size: .9em;
-    color: #999999;
+    color: #605e5e;
     line-height: 1.8em;
     text-decoration: none;
 }
@@ -905,7 +912,7 @@ li.agileinfo_share {
 }
 .w3agile_footer_grid_list ul li{
     display: inline-block;
-    color: #999999;
+    color: #605e5e;
     font-size: .9em;
     margin: .5em 0 0 0;
 }
@@ -933,7 +940,7 @@ li.agileinfo_share {
 .agileits-w3layouts-copyright p {
     margin: 0;
     font-size: .9em;
-    color: #999999;
+    color: #605e5e;
 }
 .agileits-w3layouts-copyright p a {
     color: #ff5722;
@@ -1392,7 +1399,7 @@ ul.bs-glyphicons-list {
 .contact h4 {
     margin: 0 0 1em;
     font-size: 1em;
-    color:#ff5722;
+    color:#0acece;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 600;
@@ -1404,7 +1411,7 @@ ul.bs-glyphicons-list {
     border: none;
 }
 .address {
-     margin: 6em 0 0;
+     margin: 5em 0 0;
 }
 .address-grids {
 	padding: 0;
@@ -1417,7 +1424,7 @@ ul.bs-glyphicons-list {
 }
 .address p {
     margin: 0 0 .3em 0;
-    color: #999999;
+    color: #605e5e;
     font-size: .9em;
     line-height: 1.8em;
 }
@@ -1440,7 +1447,7 @@ ul.bs-glyphicons-list {
 }
 .contact-infom p {
     margin: 0;
-    color: #999999;
+    color: #605e5e;
     font-size: .9em;
     line-height: 1.8em;
 }
@@ -1450,35 +1457,35 @@ ul.bs-glyphicons-list {
 .contact-form input[type="text"] {
   display: inline-block;
   background: none;
-  border:solid 1px #999999;
+  border:solid 1px #605e5e;
   width: 31.9%;
   outline: none;
   padding:.5em;
   font-size: .9em;
-  color: #999999;
+  color: #605e5e;
   margin-bottom: 1.5em;
 }
 .contact-form input[type="email"] {
   display: inline-block;
   background: none;
-  border:solid 1px #999999;
+  border:solid 1px #605e5e;
   width: 31.9%;
   outline: none;
   padding:.5em;
   font-size: .9em;
-  color: #999999;
+  color: #605e5e;
   margin-bottom: 1.5em;
   margin: 0 1.25em;
 }
 .contact-form textarea {
   display: inline-block;
   background: none;
-  border:solid 1px #999999;
+  border:solid 1px #605e5e;
   width: 100%;
   outline: none;
   padding:.5em;
   font-size: .9em;
-  color: #999999;
+  color: #605e5e;
   margin-bottom: 1.5em;
   min-height:150px;
 }
@@ -1497,8 +1504,8 @@ button.btn1{
     -ms-transition: 0.5s all;
 }
 button.btn1:hover {
-    background: #ff5722;
-	border: solid 1px #ff5722;
+    background: #0acece;
+	border: solid 1px #0acece;
     color: #212121;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -1955,7 +1962,7 @@ h4.modal-title {
     color: #fff;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #0cf920;
+    color: none;
 }
 .nav > li {
     text-align: center;
@@ -2187,4 +2194,26 @@ h4.modal-title {
 .popular-grid {
     width: 100%;
 }
+}
+.link-1 {
+  transition: 0.3s ease;
+  /*background: #3fa46a;*/
+  /*color: #ffffff;*/
+  /*font-size: 14px;*/
+  /*text-decoration: none;*/
+  /*border-top: 1px solid ;*/
+  /*border-bottom: 1px solid ;*/
+  padding: 2px 0;
+  margin: 0 2px;
+}
+.link-1:hover {
+  /*border-top: 0.1px solid white;*/
+  border-bottom: 0.1px solid white;
+  padding: 2px 0; 
+}
+.destinations {
+  color: white;
+  float: right;
+  margin-right: 150px ;
+  margin-top: : 450px ;
 }
